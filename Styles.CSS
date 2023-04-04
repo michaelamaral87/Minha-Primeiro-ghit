@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 10;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    height: 100vh;
+    width: 100vw;
+}
+
+.container-left {
+    display: inline-block;
+}
+
+.container-right {
+    display: inline-block;
+}
+p {
+    color: black(0, 255, 255, 0.432);
+}
+
+p:hover {
+    color: blue;
+}
+
+li:first-child {
+    color:blue
+}
+
+input:checked {
+    width: 10px;
+    height: 10px;
+}
+
+input:checked {
+    color: red;
+}
+
+
+
